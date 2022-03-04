@@ -7,6 +7,7 @@ public class Room {
     private boolean statute;
 
     public Room() {
+        System.out.println("1111111111");
     }
 
     public Room(int no, String type, boolean statute) {

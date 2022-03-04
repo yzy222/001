@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 
 public class DataoutputsteamText {
     public static void main(String[] args) throws Exception{
-        DataOutputStream dos =new DataOutputStream(new FileOutputStream("data"));
+        DataOutputStream dos =new DataOutputStream(new FileOutputStream("data.properties"));
         byte b=10;
         short s=20;
         char c =97;
@@ -27,7 +27,7 @@ public class DataoutputsteamText {
 
         dos.flush();
         dos.close();
-        DataInputStream dis=new DataInputStream(new FileInputStream("data"));
+        DataInputStream dis=new DataInputStream(new FileInputStream("data.properties"));
         //读写顺序一致
         dis.readByte();
         System.out.println(dis.readShort());
