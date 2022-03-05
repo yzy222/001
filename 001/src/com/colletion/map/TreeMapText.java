@@ -1,6 +1,5 @@
-package com.map;
+package com.colletion.map;
 
-import java.util.Comparator;
 import java.util.TreeSet;
 
 public class TreeMapText {

@@ -1,3 +1,5 @@
+package com.Stringmore;
+
 public class StringBuilderText {
     public static void main(String[] args) {
         //没有synchronized修饰，多线程模式下不安全

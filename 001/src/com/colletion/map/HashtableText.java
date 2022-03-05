@@ -1,4 +1,4 @@
-package com.map;
+package com.colletion.map;
 
 public class HashtableText {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.Stringmore;
+
 public class StringText {
     public static void main(String[] args) {
         String a = "中国人666";

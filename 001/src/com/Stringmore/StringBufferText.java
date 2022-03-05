@@ -1,3 +1,5 @@
+package com.Stringmore;
+
 public class StringBufferText {
     public static void main(String[] args) {
         StringBuffer stringBuffer=new StringBuffer();
